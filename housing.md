@@ -1,52 +1,37 @@
-## Housing Overview
-> Sleeps 48 people. Verify your housing assignment at the reunion with Jeremiah and Melissa in case there are last minute changes.
- 
-> Preview [Homes](https://www.coramranch.com/vacation-home)
-- River House
-- Dogwood House
-- Alpine and Birch House
-- Cedar House
-- Rec Room
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Hotels Selection</title>
 
-## Cooking
-> On site there are cooking facilities in each house. The Alpine ranch kitchens will be for large group meals and has appliances and utensils. There is an outdoor barbecue!
+</head>
+<body>
+    <h1> Hello, Please provide the name of the hotel you would like to stay in?</h1>
+    <input id="userInput"> 
+    <button onclick="myFunction()"> Submit </button>
+    <h1 id="message"></h1>
+    <style>
+        body {background-color:aliceblue; text-align: center; font-family: 'Times New Roman', Times, serif ;}
+    </style>
+    <script>
+        function myFunction() {
+            let userInput = document.querySelector("#userInput");
+            let message = document.querySelector("#message");
+            message.innerHTML = "Okay Great Choice You Will Be Staying At The >>>" + userInput.value;  
+        }
+    </script>
+
+Garza Blanca Cancun | Grand Residences Rivera Cancun | Kempsi Hotel Cancun |
+--| -- | -- |
+9/10|9.6/10|9.0|
+Internet| Internet|Internet|
+Free Brekfast|No Free Brekfast|No Free Brekfast|
+Free Parking|Free Parking|Free Parking|
+Pool Included|Pool Included|Pool Included|
+Room Service and Daily Cleaning|Room Service and Daily Cleaning|Room Service and Daily Cleaning|
+No Airport Shuttle|Airport Shuttle|No Airport Shuttle|
+610$/night|531$/night|500$/night|
 
 
-## Housing Assignment
-
-| Family | Attending | Assignment | Count | Children | Arrive | Depart
-| --- | --- | --- | --- | --- | --- | --- |
-| Frank, Judith | Yes | Dogwood Primary | 2 | None | Mon | Sat |
-| | | | | |
-| Johnner, Lora | Yes | ? | 3 | Shay (14) | Mon | Sat |
-| Trent, Yuri | Yes | ? | 5 | Amelia (8), Cruz (6), Gavi (1) | Mon | Sat |
-| Corey | Yes | ? | 1 | - | Mon | Fri |
-| Tiernan | Yes | ? | 1 | - | Mon | Sat |
-| Claire | Yes | ? | 1 | - | Mon | Sat |
-| | | | | |
-|Lisa-Anne, Chris | Yes | ? | 1+ | None | Mon | Sat |
-|Brianna, Forest | Yes | ? | 6 | Sayla (6), Tundra (4), Alora (2), Keelynn (1) | Mon | Sat |
-|Kira, Spencer | Yes | ? | 5 | Georgianna (6), James (5), Arabella (2), Henry (NB) | Mon | Sat |
-|Ethan, Layne | Yes | ? | 6 | William (6), Lily (4), Adeline (2), Eleanor (1) | Mon | Sat |
-| Jarom | Yes | ? | 1 | None | Mon | Sat |
-| Braden | Yes | ? | 1 | None | Mon | Sat |
-| | | | | |
-| Mathew | ? | ? | 1 | None | Unk | Unk |
-| | | | | |
-| Sherri, Drumond | Yes | ? | 2 | None | Mon | Sat |
-| Taylor | Yes | ? | 1 | None | Unk | Unk |
-| Jake | Yes | ? | 1 | None | Unk | Unk |
-| | | | | |
-| Angela, Tye | Yes | ? | 2 | None | Mon | Sat |
-| Bryce | ? | ? | 1 | None | Unk | Unk |
-| Aspen, Brandon | ? | ? | 2 | None | Unk | Unk |
-| Calem | ? | ? | 1 | None | Unk | Unk |
-| | | | | |
-| Jared, Janice | Yes | ? | 4 | Kelle (15), Naya (13) | Mon | Sat |
-| | | | | |
-| John, Melanie | Yes | ? | 4 | Connor (17), Sophia (14) | Mon | Sat |
-| Isaiah | ? | ? | 1 | None | Unk | Unk |
-| | | | | |
-| Jeremiah, Melissa | Yes | ? | 3 | Liam (11) | Mon | Sat |
-| Annalyce | ? | ? | 1 | None | Unk | Unk |
-| Peyton | Yes | ? | 1 | None | Unk | Unk |
+</body>
+</html>
