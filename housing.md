@@ -21,7 +21,7 @@
         }
     </script>
 
-Garza Blanca Cancun | Grand Residences Rivera Cancun | Kempsi Hotel Cancun |
+[Garza Blanca Cancun](https://www.garzablancaresort.com) |[ Grand Residences Rivera Cancun](https://grandresidencesrivieracancun.com) | [Kempsi Hotel Cancun ](https://www.kempinski.com/en) |
 --| -- | -- |
 9/10|9.6/10|9.0|
 Internet| Internet|Internet|
