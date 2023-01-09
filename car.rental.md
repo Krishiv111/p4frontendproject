@@ -17,9 +17,6 @@
             let userInput = document.querySelector("#userInput");
             let message = document.querySelector("#message");
             message.innerHTML = "Great Choice You Will Be Driving A " + userInput.value;
-            <form>
-            <input type="button" value="Go back!" onclick="history.back()">
-            </form>
         }
     </script>
     <table align="center"> 
