@@ -16,7 +16,7 @@
         function myFunction() {
             let userInput = document.querySelector("#userInput");
             let message = document.querySelector("#message");
-            message.innerHTML = "Okay Great Choice You Will Be Doing The >>>" + userInput.value;  
+            message.innerHTML = "Okay Great Choice You Will Be Doing " + userInput.value;  
         }
     </script>
 
@@ -24,7 +24,7 @@
     <tr> 
     <th>Snorkeling</th>
     <th>Water Sking</th>
-   <th>Spa</th>
+   <th>The Spa</th>
       </tr>
     <tr>
     <td> 2 hours </td>
