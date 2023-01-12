@@ -75,3 +75,5 @@
     <img src="/images/aston.jpg" alt="aston" style="width:100%">
   </div>
 </div>
+
+<!-- bundle exec jekyll serve -H 0.0.0.0 -P 4001
