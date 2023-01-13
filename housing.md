@@ -61,4 +61,17 @@
 </body>
 </html>
 
-<img  src="images/trail.jpg">
+
+<div class="column"> <!--- make a new row -->
+ <!-- each column is one-third of width -->
+ <div class="column">
+   <img src="/images/beauty.jpg" alt="blanca" style="width:20%">
+ </div>
+  <div class="column">
+   <img src="/images/riveria.jpg" alt="hotel2" style="width:20%">
+ </div>
+  <div class="column">
+   <img src="/images/kem.jpg" alt="Kempsi" style="width:20%">
+ </div>
+</div>
+
