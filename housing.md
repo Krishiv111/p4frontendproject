@@ -74,4 +74,3 @@
    <img src="/images/kem.jpg" alt="Kempsi" style="width:20%">
  </div>
 </div>
-

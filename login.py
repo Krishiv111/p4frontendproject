@@ -4,10 +4,9 @@ import json
 
 class User:    
 
-    def __init__(self, name, uid, classof, password, dob):
+    def __init__(self, name, uid, password, dob):
         self._name = name    # variables with self prefix become part of the object, 
         self._uid = uid
-        self._classof = classof
         self.set_password(password)
         self._dob = dob
     
@@ -34,14 +33,6 @@ class User:
     def is_uid(self, uid):
         return self._uid == uid
     
-    @property
-    def classof(self):
-        return self._classof
-    
-    @classof.setter
-    def classof(self, classof):
-        self.classof = classof
-    
     # dob property is returned as string, to avoid unfriendly outcomes
     @property
     def dob(self):
@@ -65,7 +56,6 @@ class User:
         dict = {
             "name" : self.name,
             "uid" : self.uid,
-            "classof" : self.classof,
             "dob" : self.dob,
             "age" : self.age
         }
@@ -88,12 +78,9 @@ class User:
     
     # output command to recreate the object, uses attribute directly
     def __repr__(self):
-        return f'User(name={self._name}, uid={self._uid}, classof={self._classof} password={self._password},dob={self._dob})'
+        return f'User(name={self._name}, uid={self._uid}, password={self._password},dob={self._dob})'
     
 
 if __name__ == "__main__":
-    u1 = User(name='Thomas Edison', uid='toby', classof='1867', password='123toby', dob=date(1847, 2, 11))
-    print("JSON ready string:\n", u1, "\n") 
-    print("Raw Variables of object:\n", vars(u1), "\n") 
-    print("Raw Attributes and Methods of object:\n", dir(u1), "\n")
-    print("Representation to Re-Create the object:\n", repr(u1), "\n") 
+    u1 = User(name='Thomas Edison', uid='toby', password='123toby', dob=date(1847, 2, 11))
+    print("User Information:\n", u1, "\n") 
