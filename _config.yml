@@ -1,6 +1,8 @@
-theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
 title: "Vacation to Cancun"
 description: "With just a few clicks you can plan a trip to Cancun!."
 gitorg: "https://github.com/jm1021/leuck_reunion"
 description: "March 1 to March 8 2023"
 google_analytics:
+remote_theme: pages-themes/minimal@v0.2.0
+plugins: jekyll-remote-theme
